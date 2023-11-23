@@ -183,4 +183,31 @@ button {
     background: rgb(48, 59, 90);
 }
 
+button:hover{
+    cursor: pointer;
+    background: linear-gradient(rgb(120, 87, 255), rgb(46, 43, 233));
+}
+
+@media screen and (max-width:600px) {
+
+    .container{
+        display: block;
+    }
+    .card{
+        flex-direction: column;
+        height: 100%;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .scoreCard,.summaryCard{
+        width: 100%;
+    }
+
+    .scoreCard{
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+}
+
 
