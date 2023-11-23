@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+    font-family: myfont;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* colors */
+
+.category-1 {
+    background-color: rgba(255, 87, 87, 0.1);
+}
+
+.category-2 {
+    background-color: rgba(255, 176, 31, 0.1);
+}
+
+.category-3 {
+    background-color: rgba(0, 189, 145, 0.1);
+}
+
+.category-4 {
+    background-color: rgba(17, 37, 212, 0.1);
+}
+
+.red {
+    color: rgb(255, 87, 87);
+}
+
+.yellow {
+    color: rgb(255, 176, 31);
+}
+
+.green {
+    color: rgb(0, 189, 145);
+}
+
+.purple {
+    color: rgb(17, 37, 212);
+}
+
+
+/* typography */
+
+@font-face {
+    font-family: myFont;
+    src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+h1 {
+    color: rgb(200, 199, 255);
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+/* layout */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(235, 241, 255) 0px 0px 5px 10px;
+    border-radius: 22px;
+}
+
+/* scorecard layout */
+
+.scoreCard {
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgb(120, 87, 255), rgb(46, 43, 233));
+    padding: 2.1rem;
+    border-radius: 22px;
+}
+
+.score {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+    background: linear-gradient(rgb(78, 33, 202), rgba(36, 33, 202, 0));
+}
+
+.bigtxt {
+    color: rgb(255, 255, 255);
+    font-size: 3.3rem;
+    font-weight: 700;
+}
+
+.smalltxt {
+    color: rgb(200, 199, 255);
+}
+
+.result-tag {
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin: 1rem 0px;
+}
+
+.desc {
+    text-align: center;
+    color: rgb(200, 199, 255);
+}
+
+/* summary card layout */
+
+.summaryCard {
+    width: 290px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1.5rem;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.category {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 0.5rem;
+    border-radius: 10px;
+}
+
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icons span {
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.result {
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+
+.result span {
+    color: rgb(48, 59, 90);
+    opacity: 0.5;
+}
+
+
+
+button {
+    width: 100%;
+    margin-top: 1.5rem;
+    color: rgb(255, 255, 255);
+    justify-self: start;
+    font-weight: 700;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    padding: 0.8rem 0px;
+    border-radius: 20px;
+    background: rgb(48, 59, 90);
+}
+
+
